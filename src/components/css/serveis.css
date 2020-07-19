@@ -1,0 +1,51 @@
+#boton {
+	width: 15rem;
+	font-size: 1.5rem;
+}
+
+.titulo {
+	font-size: 2rem;
+	font-family: 'Montserrat';
+}
+
+.texto {
+	font-size: 1.25rem;
+	text-align: justify;
+	font-family: 'Montserrat';
+}
+.margin {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+@media screen and (min-width: 1500px) {
+	.margin {
+		margin-left: 5rem !important;
+		margin-right: 5rem !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.titulo {
+		font-size: 1.5rem;
+	}
+
+	.texto {
+		font-size: 1rem;
+	}
+
+	#boton {
+		width: 10rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.texto {
+		font-size: 1rem;
+	}
+
+	.titulo {
+		font-size: 1.5rem;
+	}
+}

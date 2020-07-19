@@ -1,0 +1,20 @@
+.titol {
+	font-size: 4rem;
+	margin-top: 5rem;
+}
+
+.subtitol {
+	font-size: 2rem;
+	text-align: justify;
+	margin-top: 2rem;
+}
+
+.paragraf {
+	font-size: 1rem;
+	text-align: justify;
+	margin-top: 3rem;
+}
+
+.div-imagen {
+	position: absolute;
+}

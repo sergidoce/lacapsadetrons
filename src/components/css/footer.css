@@ -1,0 +1,12 @@
+.footer {
+	margin-top: 3.5rem;
+	height: 10rem;
+}
+
+.border-footer {
+	border-top: 1px solid orange;
+}
+
+p {
+	font-size: 0.8rem;
+}
