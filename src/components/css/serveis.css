@@ -1,51 +1,33 @@
-#boton {
-	width: 15rem;
-	font-size: 1.5rem;
+.foto_serveis {
+	background-image: url(/images/bg_serveis.jpg);
+	background-size: cover;
 }
 
-.titulo {
+.titol_servei {
 	font-size: 2rem;
-	font-family: 'Montserrat';
+	font-weight: bold;
 }
-
-.texto {
+.subtitol_servei {
 	font-size: 1.25rem;
-	text-align: justify;
-	font-family: 'Montserrat';
-}
-.margin {
-	margin-left: 1rem;
-	margin-right: 1rem;
 }
 
-@media screen and (min-width: 1500px) {
-	.margin {
-		margin-left: 5rem !important;
-		margin-right: 5rem !important;
-	}
+.img_servei {
+	border: 2.5px solid black;
 }
 
-@media screen and (max-width: 768px) {
-	.titulo {
-		font-size: 1.5rem;
-	}
-
-	.texto {
-		font-size: 1rem;
-	}
-
-	#boton {
-		width: 10rem;
-		font-size: 1rem;
-	}
+.border-left-servei {
+	border-left: 7.5px solid white;
 }
 
-@media screen and (max-width: 576px) {
-	.texto {
-		font-size: 1rem;
-	}
+.border-right-servei {
+	border-right: 7.5px solid white;
+}
 
-	.titulo {
-		font-size: 1.5rem;
-	}
+.fade-in {
+	opacity: 0;
+	transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+	opacity: 1;
 }

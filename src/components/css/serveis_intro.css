@@ -1,0 +1,91 @@
+.div1 {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+.text1 {
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.text2 {
+	font-size: 1.75rem;
+}
+
+.carta_serveis {
+	background-color: #495057;
+	width: 20rem;
+	height: 15rem;
+	transition: all 0.3s ease 0s !important;
+	margin-top: 3rem;
+}
+
+.carta_serveis:hover {
+	transform: translateY(-7px);
+}
+
+.titol_carta_servei {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	color: #d67c30;
+	margin-top: 1rem;
+	font-family: 'Montserrat';
+}
+
+.body_carta_servei {
+	padding-top: 2rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 2rem;
+}
+
+.body_carta_tecno {
+	padding-top: 2rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 2rem;
+	position: relative;
+	height: 100%;
+}
+
+.imatge_tecno {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.tecnologies_intro {
+	background-color: #d67c30;
+	padding-bottom: 5rem;
+}
+
+.imatge_client {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	.text1 {
+		font-size: 2.5rem;
+		font-weight: bold;
+	}
+
+	.text2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.text1 {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.text2 {
+		font-size: 1.5rem;
+	}
+}

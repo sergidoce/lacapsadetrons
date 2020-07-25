@@ -1,0 +1,40 @@
+.div_principal {
+	padding-top: 5rem;
+
+	font-family: 'Montserrat';
+}
+
+.text_contacte {
+	font-size: 1.5rem;
+}
+
+.titol_contacte {
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+
+.intro_contacte {
+	height: 100%;
+}
+
+.foto_contacte {
+	background-image: url(/images/contacte.jpg);
+	background-size: cover;
+}
+
+@media screen and (max-width: 576px) {
+	.text_contacte {
+		font-size: 0.75rem;
+	}
+
+	.titol_contacte {
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
+	}
+
+	.div_principal {
+		padding-top: 5rem;
+
+		font-family: 'Montserrat';
+	}
+}

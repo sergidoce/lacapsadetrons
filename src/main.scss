@@ -1,14 +1,14 @@
 .btn {
-	border: 1px solid orange !important;
+	border: 1px solid white !important;
 	font-family: 'Montserrat';
 }
 .card-deck .card {
 	max-width: 450px !important;
 }
 
-$input-focus-border-color: orange;
-$navbar-dark-hover-color: orange;
+$input-focus-border-color: #d67c30;
+$navbar-dark-hover-color: #d67c30;
 
 $card-bg: #212529;
-$card-border-color: orange;
+$card-border-color: #d67c30;
 @import "../node_modules/bootstrap/scss/bootstrap";

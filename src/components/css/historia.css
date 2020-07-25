@@ -1,20 +1,32 @@
-.titol {
-	font-size: 4rem;
+.foto_historia {
+	background-image: url(/images/historia_bg.jpg);
+	background-size: cover;
+}
+
+.titol_historia {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.paragraf_historia {
+	font-size: 1.5rem;
+	text-align: justify;
+	margin-top: 1.5rem;
+}
+
+.margin_historia {
 	margin-top: 5rem;
 }
 
-.subtitol {
-	font-size: 2rem;
-	text-align: justify;
-	margin-top: 2rem;
-}
+@media screen and (max-width: 576px) {
+	.titol_historia {
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
 
-.paragraf {
-	font-size: 1rem;
-	text-align: justify;
-	margin-top: 3rem;
-}
-
-.div-imagen {
-	position: absolute;
+	.paragraf_historia {
+		font-size: 1rem;
+		text-align: justify;
+		margin-top: 1.5rem;
+	}
 }

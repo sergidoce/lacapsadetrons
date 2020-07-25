@@ -1,0 +1,146 @@
+.intro_menu {
+	font-family: 'Montserrat';
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	height: 100%;
+}
+
+.div1_menu {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.titol_menu {
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.subtitol_menu {
+	font-size: 2rem;
+}
+
+.foto_menu {
+	background-image: url(/images/nosaltres2.jpg);
+	background-size: cover;
+}
+
+.filtro {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.margin_flecha {
+	margin-top: 10rem;
+}
+
+.titol_elem {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.subtitol_elem {
+	font-size: 2rem;
+}
+
+.item_llista {
+	font-size: 2rem;
+}
+
+.elem {
+	font-family: 'Montserrat';
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: #d67c30;
+}
+
+.elem2 {
+	font-family: 'Montserrat';
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.flexbox-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-between;
+}
+
+.text_contacta {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+	.titol_menu {
+		font-size: 2.75rem;
+		font-weight: bold;
+	}
+
+	.subtitol_menu {
+		font-size: 1.75rem;
+	}
+
+	.titol_elem {
+		font-size: 2.25rem;
+		font-weight: bold;
+	}
+
+	.subtitol_elem {
+		font-size: 1.5rem;
+	}
+
+	.item_llista {
+		font-size: 1.5rem;
+	}
+
+	.img_item {
+		width: 15rem;
+		height: 15rem;
+		margin-top: 2rem;
+	}
+
+	.margin_flecha {
+		margin-top: 5rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.titol_menu {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.subtitol_menu {
+		font-size: 1.25rem;
+	}
+
+	.titol_elem {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.subtitol_elem {
+		font-size: 1rem;
+	}
+
+	.item_llista {
+		font-size: 1rem;
+	}
+
+	.img_item {
+		width: 15rem;
+		height: 15rem;
+		margin-top: 2rem;
+	}
+	.text_contacta {
+		font-size: 1.5rem;
+	}
+
+	.margin_flecha {
+		margin-top: 2rem;
+	}
+}

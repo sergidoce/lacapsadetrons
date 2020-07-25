@@ -4,13 +4,30 @@ import './css/footer.css';
 
 function Footer() {
 	return (
-		<div className="container-fluid">
-			<div className="row footer text-light">
-				<div className="col-10 offset-1 border-footer">
-					<div className="mt-2">
+		<div className="container-fluid p-0 footer">
+			<div className="container padding">
+				<div className="flexbox-container">
+					<div className="border-footer">
+						<p>© La Capsa de Trons 2015</p>
 						<p>Carrer Eivissa 56, 08192 Sant Quirze del Vallès</p>
 						<p>info@lacapsadetrons.com</p>
-						<p>93 727 98 94 | 647 70 36 58 | 658 58 03 50 | 636 10 97 19 | 600 77 45 51</p>
+						<p>93 727 98 94</p>
+						<p>Pàgina web dissenyada i programada per Sergi Doce</p>
+					</div>
+
+					<div>
+						<a href="">
+							<img src="./images/media/instagram.png" className="img-fluid media_icon" alt="" />
+						</a>
+						<a href="https://ca-es.facebook.com/lacapsadt/">
+							<img src="./images/media/facebook.png" className="img-fluid media_icon" alt="" />
+						</a>
+						<a href="https://twitter.com/lacapsadetrons?lang=ca">
+							<img src="./images/media/twitter.png" className="img-fluid media_icon" alt="" />
+						</a>
+						<a href="https://www.linkedin.com/company/lacapsadetrons/">
+							<img src="./images/media/linkedin.png" className="img-fluid media_icon" alt="" />
+						</a>
 					</div>
 				</div>
 			</div>
