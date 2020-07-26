@@ -17,9 +17,11 @@
 	height: 100%;
 }
 
-.foto_contacte {
-	background-image: url(/images/contacte.jpg);
-	background-size: cover;
+.contenidor_contacte {
+	width: 100%;
+	height: 150vh;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @media screen and (max-width: 576px) {

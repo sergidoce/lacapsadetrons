@@ -42,8 +42,8 @@ class Contacte extends Component {
 
 	render() {
 		return (
-			<div className="contenidor foto_contacte">
-				<div className="intro_contacte filtro">
+			<div className="contenidor_contacte bg-dark">
+				<div className="intro_contacte">
 					<div className="container div_principal">
 						<div className="row">
 							<div className="col-12">

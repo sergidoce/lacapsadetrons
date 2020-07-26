@@ -12,7 +12,6 @@ function Footer() {
 						<p>Carrer Eivissa 56, 08192 Sant Quirze del Vallès</p>
 						<p>info@lacapsadetrons.com</p>
 						<p>93 727 98 94</p>
-						<p>Pàgina web dissenyada i programada per Sergi Doce</p>
 					</div>
 
 					<div>
